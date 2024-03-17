@@ -44,6 +44,27 @@ export const REQUESTS: RawCoinInfo[] = [
     permissioned_listing: true,
   },
   {
+    name: "Legendary Meme",
+    symbol: "LME",
+    official_symbol: "LME",
+    coingecko_id: "",
+    decimals: 8,
+    logo_url: "https://raw.githubusercontent.com/hippospace/aptos-coin-list/main/icons/lme.svg",
+    project_url: "https://aptoslaunch.io",
+    token_type: {
+      type: "0xd0b4efb4be7c3508d9a26a9b5405cf9f860d0b9e5fe2f498b90e68b8d2cedd3e::legendary_meme::LegendaryMEME",
+      account_address: "0xd0b4efb4be7c3508d9a26a9b5405cf9f860d0b9e5fe2f498b90e68b8d2cedd3e",
+      module_name: "legendary_meme",
+      struct_name: "LegendaryMEME"
+    },
+    extensions: {
+      data: [["native"]]
+    },
+    unique_index: 420,
+    source: "native",
+    permissioned_listing: true,
+  },
+  {
     name: "Meeiro",
     symbol: "MEE",
     official_symbol: "MEE",
